@@ -1,0 +1,149 @@
+/* Fontes escolhidas para o projeto*/
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.ttf');
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Bold.ttf');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Black.ttf');
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'Pristina';
+    src: url('../fonts/PRISTINA.TTF.ttf');
+    font-weight: 80;
+}
+
+/*parametros gerais para caixas, body e ligacoes*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto';
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/*imagem de fundo principal*/
+.banner {
+    background-image: url('../../imgs/banner_Fractallys.png');
+    /*caminho*/
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 88vh;
+    /*100% altura*/
+    color: white;
+}
+
+/*ajusta a imagem ao tamanho do ecra*/
+@media (max-width: 768px) {
+    .banner {
+        height: 50vh; /* Ajusta a altura para telas menores */
+        background-size: cover; /* Continua cobrindo a área */
+    }
+}
+
+
+/*parametros do div superior e respetivos elementos*/
+.intro {
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.boas_vindas {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 215px;
+    display: flex;
+    color: #a37d36;
+    font-family: 'Pristina';
+}
+
+.suporte {
+    display: flex;
+    margin-right: 215px;
+    gap: 15px;
+}
+.contactos {
+    display: flex;
+    color: #a37d36;
+    font-family: 'Pristina';
+    font-size: 18px;
+    align-content: center;
+}
+
+.contact_icon {
+    display: flex;
+    height: 18px;
+    align-content: center;
+}
+
+.facebook_icon {
+    display: flex;
+    height: 15px;
+    align-content: center;
+}
+
+.instagram_icon {
+    display: flex;
+    height: 15px;
+    align-content: center;
+}
+
+.linkedin_icon {
+    display: flex;
+    height: 15px;
+    align-content: center;
+}
+
+
+/*parametros do header e respetivos elementos*/
+.header {
+    font-family: 'Pristina';
+    color: #a37d36;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 115px;
+}
+
+.headtop {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.headtop_left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.book_icon {
+    height: 30px;
+}
+
+
+.headbottom {
+    display: flex;
+}
+
+
