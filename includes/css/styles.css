@@ -21,7 +21,7 @@
 @font-face {
     font-family: 'Pristina';
     src: url('../fonts/PRISTINA.TTF.ttf');
-    font-weight: 80;
+    font-weight: 100;
 }
 
 /*parametros gerais para caixas, body e ligacoes*/
@@ -65,24 +65,24 @@ a {
     height: 35px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
+    justify-content: center;
+    gap: 750px;
 }
 
 .boas_vindas {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 215px;
     display: flex;
+    align-items: center;
     color: #a37d36;
     font-family: 'Pristina';
 }
 
 .suporte {
     display: flex;
-    margin-right: 215px;
+    align-items: center;
     gap: 15px;
 }
+
 .contactos {
     display: flex;
     color: #a37d36;
@@ -126,24 +126,179 @@ a {
     height: 115px;
 }
 
+/*parametros dos divs superiores do header*/
 .headtop {
     display: flex;
     flex-direction: row;
     align-items: center;
+    gap: 875px;
 }
 
 .headtop_left {
     display: flex;
     flex-direction: row;
     align-items: center;
+    gap: 5px;
 }
+
+.headtop_right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.true_lovers {
+    display: flex;
+    margin: 0px;
+    align-self: self-end;
+}
+
+.headtop_right_bottom {
+    display: flex;
+    margin: -5px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+} 
+
+.search_icon {
+    display: flex;
+    height: 50px;
+}
+
+.gift_icon {
+    display: flex;
+    height: 15px;
+}
+
+.cart_icon {
+    display: flex;
+    height: 15px;
+}
+
+.button1 {
+    display: flex;
+    background-color: #a37d36;
+    align-items: center;
+    border-radius: 15px;
+    height: 22.5px
+}
+
+.button2 {
+    display: flex;
+    background-color: #a37d36;
+    align-items: center;
+    border-radius: 15px;
+    height: 22.5px
+}
+
 .book_icon {
     height: 30px;
 }
 
-
+/*parametros dos divs inferiores do header*/
 .headbottom {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-family: 'Pristina';
+    color: white;
+    opacity: 85%;
+    gap: 270px;
+}
+
+.headbottom_left {
+    display: flex;
+    gap: 40px;
+}
+
+.headbottom_right {
+    display: flex;
+    margin-right: 60px;
+    gap: 40px;
+}
+
+/*parametros do div central*/
+.center_info {
+    margin-top: 115px;
+    margin-bottom: 50px;
+    font-family: 'Pristina';
+    color: black;
+    opacity: 85%;
+    display: flex;
+    align-items: center;
+   text-align: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.center_title {
+    margin: 0px;
+}
+
+.mini_title {
+    margin: 5px;
+}
+
+.button3 {
+    padding-top: 5px;
+    margin-bottom: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Pristina';
+    background-color: #a37d36;
+    color:blanchedalmond;
+    border-radius: 20px;
+    height: 35px;
+    width: 135px;
+}
+
+.bottom_bigtitle {
+    margin-bottom: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-family: 'Pristina';
+    background-color: #e6e5df;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.bottom_info {
+    margin: -30px;
+    margin-bottom: -29px;
+    color: black;
+    background-color: #e6e5df;
+    display: flex;
+    font-family: 'Pristina';
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 400px;
+}
+
+.bottom_minititle {
     display: flex;
 }
 
+.search_icon2 {
+    display: flex;
+    align-content: center;
+    height: 80px;
+}
 
+.ebook_image {
+    display: flex;
+    align-items: center;
+    height: 250px;
+}
+
+.images {
+    background-color: #e6e5df;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 25px;
+}
