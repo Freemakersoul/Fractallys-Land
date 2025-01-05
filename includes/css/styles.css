@@ -296,6 +296,7 @@ a {
 }
 
 .images {
+    margin-top: 15px;
     background-color: #e6e5df;
     display: flex;
     justify-content: center;
